@@ -47,6 +47,11 @@
             <origin xyz="0.3 0 0.1" rpy="0.0 0.0 0.0"/>
         </xacro:inertial_box>
     </link>
+    <gazebo reference="chassis">
+        <material>
+            Gazebo/White
+        </material>
+    </gazebo>
     <!-- Left Wheel Link1 -->
 
     <joint name="left_wheel_joint1" type="continuous">
@@ -72,6 +77,12 @@
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> 
         </xacro:inertial_cylinder>
     </link>
+    <gazebo reference="left_wheel1">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+
     <joint name="left_wheel_joint2" type="continuous">
         <parent link="base_link"/>
         <child link="left_wheel2"/>
@@ -96,6 +107,12 @@
         </xacro:inertial_cylinder>
     </link>
 
+    <gazebo reference="left_wheel2">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+
     <joint name="left_wheel_joint3" type="continuous">
         <parent link="base_link"/>
         <child link="left_wheel3"/>
@@ -119,6 +136,13 @@
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> 
         </xacro:inertial_cylinder>
     </link>
+
+    <gazebo reference="left_wheel3">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+    
         <!-- right Wheel Link -->
 
     <joint name="right_wheel_joint1" type="continuous">
@@ -145,6 +169,12 @@
         </xacro:inertial_cylinder>
     </link>
 
+    <gazebo reference="right_wheel1">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+    
     <joint name="right_wheel_joint2" type="continuous">
         <parent link="base_link"/>
         <child link="right_wheel2"/>
@@ -169,6 +199,12 @@
         </xacro:inertial_cylinder>
     </link>
 
+    <gazebo reference="right_wheel2">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+
     <joint name="right_wheel_joint3" type="continuous">
         <parent link="base_link"/>
         <child link="right_wheel3"/>
@@ -192,4 +228,11 @@
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> 
         </xacro:inertial_cylinder>
     </link>
+
+    <gazebo reference="right_wheel3">
+        <material>
+            Gazebo/Blue
+        </material>
+    </gazebo>
+
 </robot>
