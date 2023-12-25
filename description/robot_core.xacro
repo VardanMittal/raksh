@@ -111,6 +111,8 @@
         <material>
             Gazebo/Blue
         </material>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
     </gazebo>
 
     <joint name="left_wheel_joint3" type="continuous">
@@ -141,6 +143,8 @@
         <material>
             Gazebo/Blue
         </material>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
     </gazebo>
     
         <!-- right Wheel Link -->
@@ -203,6 +207,8 @@
         <material>
             Gazebo/Blue
         </material>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
     </gazebo>
 
     <joint name="right_wheel_joint3" type="continuous">
@@ -233,6 +239,8 @@
         <material>
             Gazebo/Blue
         </material>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
     </gazebo>
 
 </robot>

@@ -5,12 +5,13 @@
         <plugin name="raksh_drive" filename="libgazebo_ros_diff_drive.so">
             <!-- Wheel Information -->
             <left_joint>left_wheel_joint1</left_joint>
-            <left_joint>left_wheel_joint2</left_joint>
-            <left_joint>left_wheel_joint3</left_joint>
+            <!-- <left_joint>left_wheel_joint2</left_joint>
+            <left_joint>left_wheel_joint3</left_joint> -->
 
             <right_joint>right_wheel_joint1</right_joint>
-            <right_joint>right_wheel_joint2</right_joint>
-            <right_joint>right_wheel_joint3</right_joint>
+            <!-- <right_joint>right_wheel_joint2</right_joint>
+            <right_joint>right_wheel_joint3</right_joint> -->
+
             <wheel_seperation>0.45</wheel_seperation>
             <wheel_diameter>0.1</wheel_diameter>
 
